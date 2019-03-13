@@ -1,0 +1,10 @@
+# Andrew Flowers <andrew.w.flowers@gmail.com>
+# March 13, 2019
+
+# Source: https://www.datascience.com/blog/beginners-guide-to-shiny-and-leaflet-for-interactive-mapping
+
+library(tidyverse)
+library(shiny)
+library(leaflet)
+
+raw_nypd_major_felonies <- read_csv("~/Downloads/NYPD_7_Major_Felony_Incidents.csv")
